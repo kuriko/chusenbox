@@ -1,5 +1,61 @@
 let datas = [
   {
+    "id": 5,
+    "name": "kenton116",
+    "title": "Break the blocks",
+    "desc": "有名な「ブロック崩し」ゲームです。 \n下のパドルを操作し、ボールをバウンドさせて全てのブロックを壊してください。",
+    "play": "https://kenton116.github.io/break-the-blocks/game.html",
+    "src": "https://github.com/kenton116/break-the-blocks"
+  },
+  {
+    "id": 7,
+    "name": "まさし",
+    "title": "マッチョ記憶ゲーム",
+    "desc": "使い方・遊び方  マッチョ記憶ゲームです。  \nまず回転ボタンを押すとカードが1枚ずつ回転し、 裏側に隠されたマッチョの絵が一瞬見えます。 次に問題ボタンを押すと出題されます。",
+    "play": "https://ma3shi.github.io/macho-memory-game/",
+    "src": "https://github.com/ma3shi/macho-memory-game"
+  },
+  {
+    "id": 10,
+    "name": "marotyuket",
+    "title": "FizzBuzzで遊ぼう",
+    "desc": "FizzBuzzゲームです。\n1から１００までの数字が出てくるので3で割り切れる時はFizz、5で割り切れる時はBuzz、15で割り切れる時はFizzBuzzを言っていきます。\n間違えたら負けです.",
+    "play": "https://marotyuket.github.io/FizzBuzz/index1.html",
+    "src": "https://github.com/marotyuket/FizzBuzz"
+  },
+  {
+    "id": 8,
+    "name": "BlueZhiaar",
+    "title": "呟く生き物",
+    "desc": "ページの中をうろうろしている生き物がいます。\n生き物は言葉の組み合わせをランダムに呟いています。\nそれを眺めて楽しみます。",
+    "play": "https://bluezhiaar.github.io/wanderer/description.html",
+    "src": "https://github.com/BlueZhiaar/wanderer/tree/gh-pages"
+  },
+  {
+    "id": 11,
+    "name": "satsukizzz",
+    "title": "phaser倉庫番",
+    "desc": "倉庫番で、WASDで上下左右に動き、completedが出たら終了です(提出時点で1マップ)。 \nブラウザJavaScriptだけで動く2Dゲームフレームワークphaser3を使い、初めてのゲームを作りました。",
+    "play": "https://satsukizzz.github.io/sokoban/",
+    "src": "https://github.com/satsukizzz/sokoban"
+  },
+  {
+    "id": 14,
+    "name": "ふーちん",
+    "title": "ホンモノを探せ",
+    "desc": "正しい人の名前を探すゲームです。ダミーがたくさんあります。\n正しい名前が書いてあるボタンを探してクリックしてください。",
+    "play": "https://fuuchin.github.io/honmono_sagashi/",
+    "src": "https://github.com/fuuchin/honmono_sagashi/tree/gh-pages"
+  },
+  {
+    "id": 15,
+    "name": "nakako",
+    "title": "猫のお掃除大作戦",
+    "desc": "上下キーを使ってネコを操作。 \n家具や植物を避けながら、ごみをたくさん拾ってナワバリの平和を守ろう！",
+    "play": "https://nakako.github.io/catCleaner/catCleaner.html",
+    "src": "https://github.com/nakako/catCleaner"
+  },
+  {
     "id": 1,
     "name": "take",
     "title": "ぼくの単語帳",
@@ -32,52 +88,12 @@ let datas = [
     "src": "https://github.com/chikako2020/readingGuide"
   },
   {
-    "id": 5,
-    "name": "kenton116",
-    "title": "Break the blocks",
-    "desc": "有名な「ブロック崩し」ゲームです。 \n下のパドルを操作し、ボールをバウンドさせて全てのブロックを壊してください。",
-    "play": "https://kenton116.github.io/break-the-blocks/game.html",
-    "src": "https://github.com/kenton116/break-the-blocks"
-  },
-  {
     "id": 6,
     "name": "まさし",
     "title": "ミニゲーム集",
     "desc": "7つのミニゲームが入ってます。 \n遊び方はルールボタンに記載してあります。",
     "play": "https://ma3shi.github.io/mini-games/",
     "src": "https://github.com/ma3shi/mini-games"
-  },
-  {
-    "id": 7,
-    "name": "まさし",
-    "title": "マッチョ記憶ゲーム",
-    "desc": "使い方・遊び方  マッチョ記憶ゲームです。  \nまず回転ボタンを押すとカードが1枚ずつ回転し、 裏側に隠されたマッチョの絵が一瞬見えます。 次に問題ボタンを押すと出題されます。",
-    "play": "https://ma3shi.github.io/macho-memory-game/",
-    "src": "https://github.com/ma3shi/macho-memory-game"
-  },
-  {
-    "id": 8,
-    "name": "BlueZhiaar",
-    "title": "呟く生き物",
-    "desc": "ページの中をうろうろしている生き物がいます。\n生き物は言葉の組み合わせをランダムに呟いています。\nそれを眺めて楽しみます。",
-    "play": "https://bluezhiaar.github.io/wanderer/description.html",
-    "src": "https://github.com/BlueZhiaar/wanderer/tree/gh-pages"
-  },
-  {
-    "id": 10,
-    "name": "marotyuket",
-    "title": "FizzBuzzで遊ぼう",
-    "desc": "FizzBuzzゲームです。\n1から１００までの数字が出てくるので3で割り切れる時はFizz、5で割り切れる時はBuzz、15で割り切れる時はFizzBuzzを言っていきます。\n間違えたら負けです.",
-    "play": "https://marotyuket.github.io/FizzBuzz/index1.html",
-    "src": "https://github.com/marotyuket/FizzBuzz"
-  },
-  {
-    "id": 11,
-    "name": "satsukizzz",
-    "title": "phaser倉庫番",
-    "desc": "倉庫番で、WASDで上下左右に動き、completedが出たら終了です(提出時点で1マップ)。 \nブラウザJavaScriptだけで動く2Dゲームフレームワークphaser3を使い、初めてのゲームを作りました。",
-    "play": "https://satsukizzz.github.io/sokoban/",
-    "src": "https://github.com/satsukizzz/sokoban"
   },
   {
     "id": 12,
@@ -94,22 +110,6 @@ let datas = [
     "desc": "ただの迷路です\n十字キーで赤四角を動かします ゴールは緑四角です",
     "play": "https://warm-woodland-83374.herokuapp.com/maze.html",
     "src": "https://github.com/romeiR/maze/tree/master"
-  },
-  {
-    "id": 14,
-    "name": "ふーちん",
-    "title": "ホンモノを探せ",
-    "desc": "正しい人の名前を探すゲームです。ダミーがたくさんあります。\n正しい名前が書いてあるボタンを探してクリックしてください。",
-    "play": "https://fuuchin.github.io/honmono_sagashi/",
-    "src": "https://github.com/fuuchin/honmono_sagashi/tree/gh-pages"
-  },
-  {
-    "id": 15,
-    "name": "nakako",
-    "title": "猫のお掃除大作戦",
-    "desc": "上下キーを使ってネコを操作。 \n家具や植物を避けながら、ごみをたくさん拾ってナワバリの平和を守ろう！",
-    "play": "https://nakako.github.io/catCleaner/catCleaner.html",
-    "src": "https://github.com/nakako/catCleaner"
   },
   {
     "id": 16,

@@ -1,7 +1,7 @@
 $("#content").hide();
 
-function choose() {
-  const choosen = datas[Math.floor(Math.random() * datas.length)];
+function choose(i) {
+  const choosen = datas[i];
   $("#id").text(choosen.id);
   $("#title").text(choosen.title);
   $("#image").attr("src", `img/${choosen.id}.PNG`);
@@ -12,21 +12,20 @@ function choose() {
 }
 
 function roll(sec) {
-  if (sec < 1000) {
     setTimeout(() => {
-      choose();
-      roll(sec * 1.08);
+      choose(Math.floor(Math.random() * datas.length));
+      if (sec < 900) {
+        roll(sec * 1.08);
+      } else {
+        $("#choosebox").css("color", `#44A`);
+        $("#title").css("background-color", `#44A`);
+        $("#play").show();
+      }
     }, sec < 10 ? 10 : sec);
-  } else {
-    $("#choosebox").css("color", `#44A`);
-    $("#title").css("background-color", `#44A`);
-    $("#play").show();
-  }
 }
 
 $("#choose").on("click", () => {
   datas = datas.filter(e => e.id != $("#id").text() );
-  console.log(datas.length);
   $("#head").hide();
   $("#content").show();
   $("#play").hide();
