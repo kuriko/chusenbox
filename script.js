@@ -13,10 +13,11 @@ function choose(i) {
 
 function roll(sec) {
     setTimeout(() => {
-      choose(Math.floor(Math.random() * datas.length));
       if (sec < 900) {
+        choose(Math.floor(Math.random() * datas.length));
         roll(sec * 1.08);
       } else {
+        choose(0);
         $("#choosebox").css("color", `#44A`);
         $("#title").css("background-color", `#44A`);
         $("#play").show();
